@@ -67,20 +67,20 @@ body {
 
 .title {
   font-family: 'Work Sans', sans-serif;
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
   color: #0000ED;
   text-shadow: 0 0 3px #d6d6d6;
 }
 
 .searchBox {
-  width: 600px;
+  width: 250px;
   background-color: #f8f8f8;
   border: 2px solid #f8f8f8;
   box-shadow: 10px;
   border-radius: 10px;
   z-index: 3;
-  height: 45px;
+  height: 30px;
   margin: 0 auto;
 
   box-shadow: 1px 2px 3px #d6d6d6;
@@ -97,7 +97,7 @@ body {
 }
 
 .searchBox2 {
-  width: 200px;
+  width: 40px;
   border: none;
   box-shadow: 10px;
   border-radius: 10px;
@@ -144,7 +144,7 @@ body {
 
 .buttonTitle{
     font-family: 'Work Sans', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   color: #0000ED;
   padding-bottom: 8px;
@@ -200,16 +200,8 @@ body {
 }
 
 .buttonText{
-color: #262626;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 15px;
-  padding-left: 25px;
-  padding-top: 4px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-shadow: 0 0 1px #d6d6d6;
-  
+
+  font-size: 0;
 }
 
 .searchButton {
@@ -219,8 +211,8 @@ color: #262626;
   border-radius: 10px;
   margin: 4px 20px;
   padding: 0 16px;
-  height: 150px;
-  min-width: 300px;
+  height: 80px;
+  min-width: 130px;
   text-align: center;
   cursor: pointer;
   box-shadow: 1px 2px 3px #d6d6d6;
@@ -266,6 +258,78 @@ color: #262626;
   text-align: center;
   cursor: pointer;
   box-shadow: 1px 2px 3px #d6d6d6;
+}
+
+@media screen and (min-width: 700px) {
+  div.title{
+   font-size: 45px;
+  }
+  div.searchBox{
+   width: 400px;
+   height: 40px;
+  }
+  div.searchBox2{
+    width: 30px;
+  }
+  button.searchButton {
+  min-width: 200px;
+  padding: 0 16px;
+  height: 100px;
+}
+  p.buttonTitle{
+  font-size: 30px;
+  text-align: center;
+  color: #0000ED;
+  padding-bottom: 4px;
+  }
+  div.subGroup {
+  display: flex;  
+  width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+}
+
+@media screen and (min-width: 1000px) {
+  div.title{
+  font-size: 60px;
+  }
+  div.searchBox{
+   width: 530px;
+   height: 45px;
+  }
+  div.searchBox2{
+    width: 80px;
+  }
+  button.searchButton {
+  min-width: 300px;
+  height: 150px;
+}
+p.buttonTitle{
+  font-size: 30px;
+  text-align: center;
+  color: #0000ED;
+  padding-bottom: 8px;
+  }
+p.buttonText{
+  color: #262626;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-shadow: 0 0 1px #d6d6d6;
+}
+div.subGroup {
+  display: flex;  
+  width: 1030px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
 }
 
 </style>
